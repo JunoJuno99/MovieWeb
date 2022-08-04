@@ -14,7 +14,6 @@ function Detail() {
   useEffect(() => {
     getDetail();
   }, []);
-  console.log(detail);
   return (
     <div>
       {loading ? (
